@@ -48,11 +48,16 @@ main {
 
 h1 {
 	font-size: 150%;
-	border-bottom: 3px solid #931420;
-	border-top: 3px solid #931420;
+	/*border-bottom: 3px solid #931420;
+	border-top: 3px solid #931420;*/
 	padding-top: .3em;
 	padding-bottom: .3em;
 	margin: 0;
+	border: 5px double #000;
+	border-radius: 15px;
+	box-shadow: 5px 5px 0 0;
+	text-align: center;
+	margin-bottom: 5px;
 }
 
 h2 {
