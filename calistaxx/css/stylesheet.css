@@ -153,6 +153,10 @@ img.sounds:hover{
 	border-bottom: 10px solid #eeeeee;	
 }
 
+#container img {
+	width: 25%;
+}
+
 #scrollbox {
 	width: 60%;
 	height: 690px;
