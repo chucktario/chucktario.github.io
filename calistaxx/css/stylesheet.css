@@ -14,7 +14,7 @@ header {
 	position: relative;
 	background-image: url('../imgs/diemen_logo.png') ;
 	background-repeat: no-repeat;
-	width: 23.3vw;
+	width: 500px;
 	height: 150px;
 	margin-top: 0;
 	margin-left: 66%;
@@ -35,7 +35,7 @@ nav ul {
 
 nav ul li {
 	display: inline-block;
-	font-size: 3.3vh;
+	font-size: 30px;
 	padding: 6px 55px;
 	width: 5%;
 	font-family: sans-serif;
@@ -132,6 +132,13 @@ main {
 
 #container img {
 	padding: 0px 20px;
+}
+
+#event-container {
+	width: 60%;
+	margin: auto;
+	height: 690px;
+	padding-top: 50px;
 }
 
 img.highhopes:hover {
