@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+	background-color: beige;
+}
+
+#container {
+	margin: 0 auto;
+	width: 1080px;
+	background-color: beige;
+	position: relative;
+}
+
+header {
+	position: relative;
+	background-color: grey;
+	height: 110px;
+	text-align: center;
+	padding-top: 5px;
+	
+}
+
+#logo {
+	position: relative;
+	background: radial-gradient(gold, yellow, yellow);
+	width: 800px;
+	margin: 0 auto;
+	border-radius: 50px;
+	border: 1px solid black;
+}
+
+h2 {
+	font-size: 35px;
+	font-family: 'Ribeye Marrow', cursive;
+	margin-top: 0;
+	font-weight: lighter;
+	margin-bottom: 5px;
+}
+
+h3 {
+	font-family: 'Aguafina Script', cursive;
+	margin-bottom: 2px;
+	margin-top: 0;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+nav {
+	background-color: yellow;
+	border: 2px solid black;
+	margin-top: 3px;
+}
+
+nav ul {
+	text-align: center;
+	padding-left: 0;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+nav ul li{
+	color: teal;
+	font-family: sans-serif;
+	background-color: yellow;
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 50px
+}
+
+nav ul li:first-child {
+	padding-left: 0px;
+}
+
+h1 {
+	font-family: sans-serif;
+	margin-top: 5px;
+	text-align: center;
+	border-bottom: 3px solid gold;
+}
+
+article {
+	position: relative;
+	background-color: #E1E49F;
+	width: 700px;
+	height: 500px;
+}
+
+p {
+	font-family: sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 1.5;
+}
+
+aside {
+	float: right;
+	clear: left;
+	width: 350px;
+	background-color: tan;
+	padding-bottom: 15px;
+	margin-top: 5px;
+	height: 485px;
+}
+
+#callout {
+	background-color: navy;
+	text-align: center;
+	width: 300px;
+	margin:auto;
+	color: white;
+	padding-bottom: 10px;
+}
+
+aside p {
+	background-color: darkgreen;
+	padding: 5px 25px;
+	width: 200px;
+	margin-left: 25px;
+}
+
+footer {
+	clear: both;
+	background-color: grey;
+	text-align: center;
+	color: white;
+}
+
