@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Bootstrap is mobile first add this for proper rendering and touch zooming -->
+    <meta name="viewport" content="width=device-width, initital-scale-1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/overrides.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-light sticky-top">
+      <!-- Items in navigation bar -->
+      <ul class="navbar-nav">
+        <a class="navbar-brand" href="learning.html">
+          <img src="images/TachiTakeouts.png" alt="Logo" height="40px" width="40px">
+        </a>
+        <a class="navbar-brand" href="learning.html">
+          <img src="images/home-icon.png" alt="Logo" height="30px" width="30px">
+        </a>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="Orderform.html">Order</a>
+        </li>
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+          Venues
+        </a>
+        <div class="dropdown-menu bg-secondary">
+          <a class="dropdown-item text-white" href="https://www.tachipalace.com/dining/">Coyote Grill</a>
+          <a class="dropdown-item text-white" href="https://www.tachipalace.com/dining/">Red Tail Hawk</a>
+          <a class="dropdown-item text-white" href="https://www.tachipalace.com/dining/">Phonominal</a>
+          <a class="dropdown-item text-white" href="https://www.tachipalace.com/dining/">Pizza Hut</a>
+        </div>
+      </li>
+      <!-- Link dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+          Links
+        </a>
+        <div class="dropdown-menu bg-secondary">
+          <a class="dropdown-item text-white" href="http://swsweb:8080/">SWS</a>
+          <a class="dropdown-item text-white" href="https://mingle-portal.inforcloudsuite.com/TACHIPALACE_PRD">Infor</a>
+          <a class="dropdown-item text-white" href="https://gw3224.fortimail.com/">Fortimail</a>
+          <a class="dropdown-item text-white" href="http://ldweb/ServiceDesk.WebAccess">Web Desk</a>
+          <a class="dropdown-item text-white" href="https://login.microsoftonline.com/">Office 365</a>
+          <a class="dropdown-item text-white" href="http://micromain/webrequest">Micromain</a>
+          <a class="dropdown-item text-white" href="https://tachipalace.cloudternal.com/">Team</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="phonebookexample.html">Phone Directory</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white float-right" href="#">Help</a>
+      </li>
+      </ul>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid bg-dark">
+      <h1 class="display-1 text-center text-white">Tachi Takeouts</h1>
+    </div>
+    <!-- Adds Center Column for content -->
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <div id="demo" class="carousel slide shadow p-4 mb-4 bg-white align-middle" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+
+          <!-- The slideshow Added d-block mx-auto to center images -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block mx-auto" src="images/burrito.jpeg" alt="A Tasty burrito" width="810" height="405">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block mx-auto" src="images/chicken.jpg" alt="Savory chicken" width="810" height="405">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block mx-auto" src="images/hamburger.jpg" alt="Juicy hamburger" width="810" height="405">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+
+        </div>
+        <h1>News</h1>
+        <dl>
+          <dt>Coffee Stop</dt>
+            <dd>Now offering delivery of black hot drink</dd>
+          <dt>Red Tail Hawk</dt>
+            <dd>New mushroom swiss burger available</dd>
+        </dl>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque est est, euismod maximus faucibus ut, varius sit amet neque. Nullam consectetur id felis nec bibendum. Cras vel nunc elementum, semper orci eget, sagittis elit. In hac habitasse platea dictumst. Pellentesque at magna est. Vestibulum turpis turpis, condimentum sit amet nibh sit amet, maximus laoreet purus. Maecenas finibus lacinia mauris.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque est est, euismod maximus faucibus ut, varius sit amet neque. Nullam consectetur id felis nec bibendum. Cras vel nunc elementum, semper orci eget, sagittis elit. In hac habitasse platea dictumst. Pellentesque at magna est. Vestibulum turpis turpis, condimentum sit amet nibh sit amet, maximus laoreet purus. Maecenas finibus lacinia mauris.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque est est, euismod maximus faucibus ut, varius sit amet neque. Nullam consectetur id felis nec bibendum. Cras vel nunc elementum, semper orci eget, sagittis elit. In hac habitasse platea dictumst. Pellentesque at magna est. Vestibulum turpis turpis, condimentum sit amet nibh sit amet, maximus laoreet purus. Maecenas finibus lacinia mauris.</p>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+
+  </body>
+</html>

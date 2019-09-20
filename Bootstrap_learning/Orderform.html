@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Bootstrap is mobile first add this for proper rendering and touch zooming -->
+    <meta name="viewport" content="width=device-width, initital-scale-1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-light sticky-top">
+      <!-- Items in navigation bar -->
+      <ul class="navbar-nav">
+        <a class="navbar-brand" href="learning.html">
+          <img src="images/TachiTakeouts.png" alt="Logo" height="40px" width="40px">
+        </a>
+        <a class="navbar-brand" href="learning.html">
+          <img src="images/home-icon.png" alt="Logo" height="30px" width="30px">
+        </a>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="Orderform.html">Order</a>
+        </li>
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+          Venues
+        </a>
+        <div class="dropdown-menu bg-secondary">
+          <a class="dropdown-item text-white" href="https://www.tachipalace.com/dining/">Coyote Grill</a>
+          <a class="dropdown-item text-white" href="https://www.tachipalace.com/dining/">Red Tail Hawk</a>
+          <a class="dropdown-item text-white" href="https://www.tachipalace.com/dining/">Phonominal</a>
+          <a class="dropdown-item text-white" href="https://www.tachipalace.com/dining/">Pizza Hut</a>
+        </div>
+      </li>
+      <!-- Link dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+          Links
+        </a>
+        <div class="dropdown-menu bg-secondary">
+          <a class="dropdown-item text-white" href="http://swsweb:8080/">SWS</a>
+          <a class="dropdown-item text-white" href="https://mingle-portal.inforcloudsuite.com/TACHIPALACE_PRD">Infor</a>
+          <a class="dropdown-item text-white" href="https://gw3224.fortimail.com/">Fortimail</a>
+          <a class="dropdown-item text-white" href="http://ldweb/ServiceDesk.WebAccess">Web Desk</a>
+          <a class="dropdown-item text-white" href="https://login.microsoftonline.com/">Office 365</a>
+          <a class="dropdown-item text-white" href="http://micromain/webrequest">Micromain</a>
+          <a class="dropdown-item text-white" href="https://tachipalace.cloudternal.com/">Team</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="phonebookexample.html">Phone Directory</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Help</a>
+      </li>
+      </ul>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid bg-dark">
+      <h1 class="display-1 text-center text-white">Place an Order</h1>
+    </div>
+
+    <div class="container">
+      <form action="/tobedetermined.php">
+
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+
+        <div class="form-group">
+          <label for="pwd">Employee ID:</label>
+          <input type="text" class="form-control" id="empID">
+        </div>
+
+        <div class="form-group">
+          <label for="sel1">Venue:</label>
+          <select class="form-control" id="sel1">
+            <option>Coyote Grill</option>
+            <option>Red Tail Hawk</option>
+            <option>Phonominal</option>
+            <option>Pizza Hut</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="comment">Order:</label>
+          <textarea class="form-control" rows="5" id="orderdetails"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
